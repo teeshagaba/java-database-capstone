@@ -3,7 +3,7 @@ Smart Clinic Management System Architecture
    
 The Smart Clinic Management System follows a three-tier architecture consisting of the Presentation Layer, Application Layer, and Data Layer. Users interact with the system through web pages developed using Thymeleaf or through REST APIs. The Application Layer, built with Spring Boot, processes user requests using controllers and services that implement business logic. Data is stored and retrieved using two databases: MySQL for relational data through Spring Data JPA and MongoDB for document-based data through Spring Data MongoDB. This architecture promotes scalability, maintainability, and separation of concerns.
 
-3. Numbered Flow :
+2. Numbered Flow :
    
 The user accesses the Smart Clinic Management System through a web browser or API client.
 The Presentation Layer displays web pages using Thymeleaf templates or accepts REST API requests.
